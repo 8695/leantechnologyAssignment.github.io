@@ -20,7 +20,7 @@ import styles from "../css/contactForm.module.css";
           </div>
           <div className={styles.description}>
             <div className={styles.desTitle}>
-              <p className={styles.lab}>What would you like to ask</p>
+              <p className={styles.lab}>What would you like to ask?</p>
               <div className={styles.descInpt}>
                 <textarea
                  placeholder="write here..."
