@@ -1,5 +1,7 @@
 import Navbar from "./navbar/navbar";
-import "./app.css";
+
+import './css/app.css';
+
 import { Feedback } from "./components/feedback";
 function App() {
   return (
