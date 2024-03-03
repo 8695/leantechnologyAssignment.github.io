@@ -1,0 +1,119 @@
+.userComment{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width:832px;
+    height: 340px;
+    margin: 15px auto;
+    background-color: rgba(222, 231, 255, 1);
+    border-radius: 10px;
+}
+.userhead{
+    display: flex;
+    justify-content: space-between;
+    width: 750px;
+    height: 62px;
+    margin: 20px ;
+}
+.user{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 260px;
+    height: 62px;
+    gap: 16px;
+}
+.userlogo{
+    width: 62px;
+    height: 62px;
+}
+.userName{
+    width:171px;
+    height:62px;
+    color:rgba(15,15,15,1);
+   font-weight: 700;
+}
+.editLogo{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+}
+.date{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 27px;
+    color: rgba(15, 15, 15, 1);
+}
+.edit{
+    width:58px;
+    font-weight:500;
+    padding:10px;
+    font-size:20px;
+    cursor: pointer;
+}
+.comment{
+    width: 736px;
+    height: 150px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(15, 15, 15, 1);
+    margin-left: 29px;
+}
+/* style for each comment from*/
+.commentForm{
+    width: 778px;
+    height: 52px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin: 9px 27px -15px 28px;
+}
+.likeicon{
+    height: 21px;
+    width: 24px;
+    color: rgba(15,15,15,1);
+    opacity: 50%;
+    margin-top: 4px;
+}
+.likeText{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.messageForm{
+    display: flex;
+    flex-direction: row;
+    height: 34px;
+    width:600px;
+}
+.mssgeIcon{
+    height: 25px;
+    width: 25px;
+    margin-right: 12px;
+    margin-top: 5px;
+    color: rgba(15,15,15,1);
+}
+.insForm{
+   display: flex;
+   justify-content: space-between;
+   margin-left: 10px;
+}
+.input{
+    width: 400px;
+    height: 34px;
+    border: 1px solid rgba(15, 15, 15, 1);
+    border-radius: 6px;
+    padding: 10px;
+}
+.btn{
+    width: 76px;
+    height: 34px;
+    border: 1px solid rgba(0, 0, 0, 1);
+    cursor: pointer;
+    padding: 4px 16px 6px 13px;
+    border-radius: 6px;
+    margin-left: 20px;
+
+
+}

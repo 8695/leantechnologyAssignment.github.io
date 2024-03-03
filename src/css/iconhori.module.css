@@ -1,0 +1,21 @@
+
+.iconshori{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    width:600px;
+}
+.iconContainer{
+    position: relative;
+    top: 280px;
+    left: 28px;
+   
+}
+.icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgba(248, 248, 248, 1);
+    padding: 5px;
+    margin: 10px;
+}

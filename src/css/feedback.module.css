@@ -1,0 +1,175 @@
+/* style for back to qustion */ 
+.feedBackPop{
+   display: flex;
+   margin-top: 50px;
+   margin-left: 67px;
+   cursor: pointer;
+  
+}
+.arrow{
+    width:40px;
+    font-size: 24px;
+    line-height: 38px;
+    margin-top: 8px;
+    color: rgba(217, 217, 217, 1);
+    
+}
+.para{
+    height: 36px;
+    width: 356px;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    color: rgba(248, 248, 248, 1);
+
+}
+
+/* style for meassage frame */
+.messageFrame {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+    width: 832px;
+    height: 400px;
+    margin: 10px auto;
+    border-radius: 10px;
+    background-color: rgba(248, 248, 248, 1);
+}
+.headCon{
+    display:  flex;
+    justify-content: space-between;
+    width: 778px;
+    margin: -47px 28px;
+    padding: 15px;
+}
+.headBtn{
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   height: 40px;
+   width: 144px;
+   margin-top: 20px;
+   gap: 10px;
+   padding: 8px, 16px, 8px, 16px;
+   cursor: pointer;
+}
+.textD{
+   height: 40px;
+   width:80px;
+   padding: 8px;
+   border-radius: 6px;
+   background-color: rgba(169, 217, 255, 1);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24.2px;
+   color: rgba(42,42,42,1);
+}
+.textT{
+   height: 40px;
+   width:130px;
+   padding: 8px;
+   border-radius: 6px;
+   background-color: rgba(169, 217, 255, 1);
+   font-weight: 500;
+   font-size: 20px;
+   line-height: 24.2px;
+   color: rgba(42,42,42,1);
+}
+.textS{
+   font-weight: 500;
+   font-size: 18px;
+   
+}
+.imgStartup{
+    height: 50px;
+    width: 50px;
+}
+/* style for textArea */
+.textArea{
+    width: 778px;
+    height: 193px;
+    margin-top: -60px;
+}
+.textUpper{
+    width: 700px;
+    height: 90px;
+    font-weight: 500;
+    font-size: 20px;
+    margin-left: 43px;
+    line-height: 30px;
+    color: rgba(15, 15, 15, 1);
+}
+.textLower{
+    width: 700px;
+    height: 100px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color:rgba(15, 15, 15, 1);
+    margin-left: 43px;
+}
+/* third container views icons and info */
+.viewInfo{
+    width: 750px;
+    height: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -60px;
+    margin-left: 45px;
+}
+.viewIcon{
+    width:23.82px;
+    height: 23px;
+    margin-top:3.5px;
+    color:rgba(42, 42, 42, 1);
+    margin: 10px 8px;
+    cursor: pointer;
+}
+.infoIcon{
+    width: 22px;
+    height: 22px;
+    margin: 10px 8px;
+    color:rgba(42, 42, 42, 1);
+    cursor: pointer;
+}
+.infoIcon:hover{
+    background-color: rgb(184, 43, 32);
+    border-radius: 50%;
+}
+/* style for total comment count */
+.commentCount{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+    width: 832px;
+} 
+.Ans{
+    width: 163px;
+    height: 36px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 36px;
+    color: rgba(248,248,248,1);
+}
+.Sort{
+    width: 69px;
+    height: 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 5px;
+    color: rgba(248,248,248,1);
+}
+.popular{
+    width: 120px;
+    height: 35px;
+    border-radius: 6px;
+    padding: 3px 15px;
+    font-weight: 500;
+    font-size: 18px;
+    background-color: rgba(248,248,248,1);
+}
+
+
+
