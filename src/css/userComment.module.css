@@ -28,6 +28,7 @@
     height: 62px;
 }
 .userName{
+    margin-top: 2px;
     width:171px;
     height:62px;
     color:rgba(15,15,15,1);
@@ -37,6 +38,8 @@
     width: 25px;
     height: 25px;
     cursor: pointer;
+    margin-top: 4px;
+
 }
 .date{
     font-weight: 300;
@@ -50,6 +53,7 @@
     padding:10px;
     font-size:20px;
     cursor: pointer;
+    margin-top: 4px;
 }
 .comment{
     width: 736px;
@@ -80,6 +84,7 @@
     font-size: 20px;
     font-weight: 500;
     line-height: 30px;
+    margin-top: 2px;
 }
 .messageForm{
     display: flex;
@@ -101,7 +106,7 @@
 }
 .input{
     width: 400px;
-    height: 34px;
+    height: 14px;
     border: 1px solid rgba(15, 15, 15, 1);
     border-radius: 6px;
     padding: 10px;
